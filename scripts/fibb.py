@@ -18,4 +18,4 @@ if numTerms <= 0:
 else:
     print("Fibonacci sequence:")
     for i in range(numTerms):
-        print(fibonacci(i))
+        print(fibonacci(i)) 
