@@ -2,10 +2,11 @@ import requests as r
 
 encontrar = 'Retos_Hacking'
 
-lista = ['hola','que_te_parece','chorizo','Retos_Hacking']
+lista = ['hola','que_te_parece','desarrollo','Retos_Hacking', 'barbara', 'cartman', 'carbon']
 
 urlBase = 'https://github.com/jeremy2212landa'
 
+#fuzzing
 
 for fuzz in lista:
     x = r.get(f'{urlBase}/{fuzz}')

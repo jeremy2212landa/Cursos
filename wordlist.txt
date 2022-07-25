@@ -3,6 +3,7 @@ models
 controllers
 que_te_parece
 chorizo
+soluciones.html
 Retos_Hacking
 views
 robots
